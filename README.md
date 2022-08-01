@@ -10,8 +10,8 @@ Exercise 7:
 
 This is the list of some of the implemented branches:
 
-* [Unreal Engine](https://github.com)
-* [OpenGL C++](https://github.com)
+* [Unreal Engine](https://github.com/devgrids/maze3d/tree/unreal-engine)
+* [OpenGL C++](https://github.com/devgrids/maze3d/tree/opengl)
 
 ## Credits
 
