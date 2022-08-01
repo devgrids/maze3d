@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\imGui">
+      <UniqueIdentifier>{da36079c-38f0-4e4e-9e79-0d2c8b4c2e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Model">
+      <UniqueIdentifier>{2e6f26fc-4ca0-4ec8-a675-54cd4d7330a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Animation">
+      <UniqueIdentifier>{8dcfdb6a-96d6-453d-87b7-8b9ffbe16f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Skybox">
+      <UniqueIdentifier>{2cd29227-d981-40cf-b6dc-78564182bd85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Terrain">
+      <UniqueIdentifier>{3fd67dce-f63a-40d9-bf1b-1871e19d80bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\BulletPhysics">
+      <UniqueIdentifier>{523a8307-c778-4fd2-848e-47f7e639196b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Application">
+      <UniqueIdentifier>{d28f576e-296b-40b8-996f-cfa7713def17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Camera">
+      <UniqueIdentifier>{799c16f0-8141-46c4-9608-cabb97360b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObjects">
+      <UniqueIdentifier>{15483375-cd71-4053-9b26-fd181615753b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Pokebola">
+      <UniqueIdentifier>{dafa11ce-5cd3-43c7-8693-8e3e785232ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{594c8166-2b49-4734-a7ab-524e64de1c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Enemy">
+      <UniqueIdentifier>{210babaf-c850-4055-a216-998d4db2463a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{fde0341d-4ce3-4311-a2e8-f669da263883}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Archivos de recursos\imGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelController.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAttributes.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Archivos de encabezado\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Archivos de encabezado\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Archivos de encabezado\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletWorldController.h">
+      <Filter>Archivos de encabezado\BulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDrawer.h">
+      <Filter>Archivos de encabezado\BulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Archivos de encabezado\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Archivos de encabezado\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Archivos de encabezado\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="IApplication.h">
+      <Filter>Archivos de encabezado\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshM.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationController.h">
+      <Filter>Archivos de encabezado\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Archivos de encabezado\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshA.h">
+      <Filter>Archivos de encabezado\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationAttributes.h">
+      <Filter>Archivos de encabezado\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicGameObject.h">
+      <Filter>Archivos de encabezado\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="InputProcessor.h">
+      <Filter>Archivos de encabezado\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Archivos de encabezado\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Lighting.h">
+      <Filter>Archivos de encabezado\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Archivos de encabezado\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokebola.h">
+      <Filter>Archivos de encabezado\Pokebola</Filter>
+    </ClInclude>
+    <ClInclude Include="PokebolaController.h">
+      <Filter>Archivos de encabezado\Pokebola</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>Archivos de encabezado\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="IMeshComponent.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze.h">
+      <Filter>Archivos de encabezado\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Archivos de encabezado\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyController.h">
+      <Filter>Archivos de encabezado\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\model.frag">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </None>
+    <None Include="assets\shaders\model.vert">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </None>
+    <None Include="assets\shaders\animation.frag">
+      <Filter>Archivos de encabezado\Animation</Filter>
+    </None>
+    <None Include="assets\shaders\animation.vert">
+      <Filter>Archivos de encabezado\Animation</Filter>
+    </None>
+    <None Include="assets\shaders\cubemaps.frag">
+      <Filter>Archivos de encabezado\Skybox</Filter>
+    </None>
+    <None Include="assets\shaders\cubemaps.vert">
+      <Filter>Archivos de encabezado\Skybox</Filter>
+    </None>
+    <None Include="assets\shaders\skybox.frag">
+      <Filter>Archivos de encabezado\Skybox</Filter>
+    </None>
+    <None Include="assets\shaders\skybox.vert">
+      <Filter>Archivos de encabezado\Skybox</Filter>
+    </None>
+    <None Include="assets\shaders\terrain.frag">
+      <Filter>Archivos de encabezado\Terrain</Filter>
+    </None>
+    <None Include="assets\shaders\terrain.vert">
+      <Filter>Archivos de encabezado\Terrain</Filter>
+    </None>
+    <None Include="assets\shaders\debug.vert">
+      <Filter>Archivos de encabezado\BulletPhysics</Filter>
+    </None>
+    <None Include="assets\shaders\debug.frag">
+      <Filter>Archivos de encabezado\BulletPhysics</Filter>
+    </None>
+    <None Include="assets\shaders\instanceAnimation.frag">
+      <Filter>Archivos de encabezado\Animation</Filter>
+    </None>
+    <None Include="assets\shaders\instanceAnimation.vert">
+      <Filter>Archivos de encabezado\Animation</Filter>
+    </None>
+    <None Include="assets\shaders\instanceModel.frag">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </None>
+    <None Include="assets\shaders\instanceModel.vert">
+      <Filter>Archivos de encabezado\Model</Filter>
+    </None>
+    <None Include="assets\shaders\sol.frag">
+      <Filter>Archivos de encabezado\GameObjects</Filter>
+    </None>
+    <None Include="assets\shaders\sol.vert">
+      <Filter>Archivos de encabezado\GameObjects</Filter>
+    </None>
+    <None Include="assets\shaders\text.frag">
+      <Filter>Text</Filter>
+    </None>
+    <None Include="assets\shaders\text.vert">
+      <Filter>Text</Filter>
+    </None>
+  </ItemGroup>
+</Project>
