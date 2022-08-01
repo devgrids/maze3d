@@ -1,6 +1,10 @@
 # Maze 3D
 
-[//]: # (![alt text]&#40;&#41;)
+## Abstract
+
+Exercise 7:
+
+* https://www.bamtang.com/jobs/game-programmer
 
 ## Branches
 
